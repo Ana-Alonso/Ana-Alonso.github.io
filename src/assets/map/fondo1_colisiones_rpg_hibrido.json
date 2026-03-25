@@ -1,0 +1,448 @@
+{
+  "colisiones": [
+    {
+      "x": 1387,
+      "y": 176,
+      "w": 776,
+      "h": 453,
+      "tipo": "solido",
+      "fuente": "manual"
+    },
+    {
+      "x": 1984,
+      "y": 963,
+      "w": 621,
+      "h": 189,
+      "tipo": "solido",
+      "fuente": "manual"
+    },
+    {
+      "x": 213,
+      "y": 991,
+      "w": 437,
+      "h": 236,
+      "tipo": "solido",
+      "fuente": "manual"
+    },
+    {
+      "x": 296,
+      "y": 884,
+      "w": 213,
+      "h": 95,
+      "tipo": "solido",
+      "fuente": "manual"
+    },
+    {
+      "x": 1014,
+      "y": 453,
+      "w": 257,
+      "h": 145,
+      "tipo": "agua",
+      "fuente": "manual"
+    },
+    {
+      "x": 965,
+      "y": 88,
+      "w": 78,
+      "h": 120,
+      "tipo": "agua",
+      "fuente": "manual"
+    },
+    {
+      "x": 116,
+      "y": 525,
+      "w": 558,
+      "h": 48,
+      "tipo": "agua",
+      "fuente": "manual"
+    },
+    {
+      "x": 766,
+      "y": 525,
+      "w": 44,
+      "h": 67,
+      "tipo": "agua",
+      "fuente": "manual"
+    },
+    {
+      "x": 820,
+      "y": 258,
+      "w": 174,
+      "h": 280,
+      "tipo": "agua",
+      "fuente": "manual"
+    },
+    {
+      "x": 2382,
+      "y": 371,
+      "w": 131,
+      "h": 164,
+      "tipo": "solido",
+      "fuente": "manual"
+    },
+    {
+      "x": 1824,
+      "y": 931,
+      "w": 102,
+      "h": 155,
+      "tipo": "solido",
+      "fuente": "manual"
+    },
+    {
+      "x": 1746,
+      "y": 1089,
+      "w": 1,
+      "h": 1,
+      "tipo": "solido",
+      "fuente": "manual"
+    },
+    {
+      "x": 2377,
+      "y": 1337,
+      "w": 1,
+      "h": 1,
+      "tipo": "solido",
+      "fuente": "manual"
+    },
+    {
+      "x": 1169,
+      "y": 988,
+      "w": 504,
+      "h": 277,
+      "tipo": "vegetacion",
+      "fuente": "manual"
+    },
+    {
+      "x": 102,
+      "y": 85,
+      "w": 330,
+      "h": 362,
+      "tipo": "vegetacion",
+      "fuente": "manual"
+    },
+    {
+      "x": 107,
+      "y": 623,
+      "w": 490,
+      "h": 242,
+      "tipo": "vegetacion",
+      "fuente": "manual"
+    },
+    {
+      "x": 82,
+      "y": 1265,
+      "w": 583,
+      "h": 189,
+      "tipo": "vegetacion",
+      "fuente": "manual"
+    },
+    {
+      "x": 844,
+      "y": 1337,
+      "w": 985,
+      "h": 129,
+      "tipo": "vegetacion",
+      "fuente": "manual"
+    },
+    {
+      "x": 2614,
+      "y": 346,
+      "w": 107,
+      "h": 286,
+      "tipo": "vegetacion",
+      "fuente": "manual"
+    },
+    {
+      "x": 1048,
+      "y": 91,
+      "w": 296,
+      "h": 296,
+      "tipo": "vegetacion",
+      "fuente": "manual"
+    },
+    {
+      "x": 2217,
+      "y": 107,
+      "w": 431,
+      "h": 204,
+      "tipo": "vegetacion",
+      "fuente": "manual"
+    },
+    {
+      "x": 800,
+      "y": 809,
+      "w": 912,
+      "h": 25,
+      "tipo": "vegetacion",
+      "fuente": "manual"
+    },
+    {
+      "x": 1023,
+      "y": 865,
+      "w": 641,
+      "h": 51,
+      "tipo": "solido",
+      "fuente": "manual"
+    },
+    {
+      "x": 771,
+      "y": 828,
+      "w": 243,
+      "h": 207,
+      "tipo": "vegetacion",
+      "fuente": "manual"
+    },
+    {
+      "x": 2285,
+      "y": 761,
+      "w": 310,
+      "h": 177,
+      "tipo": "solido",
+      "fuente": "manual"
+    },
+    {
+      "x": 1698,
+      "y": 44,
+      "w": 140,
+      "h": 135,
+      "tipo": "solido",
+      "fuente": "manual"
+    },
+    {
+      "x": 771,
+      "y": 1164,
+      "w": 272,
+      "h": 170,
+      "tipo": "vegetacion",
+      "fuente": "manual"
+    },
+    {
+      "x": 1901,
+      "y": 1444,
+      "w": 849,
+      "h": 35,
+      "tipo": "vegetacion",
+      "fuente": "manual"
+    },
+    {
+      "x": 2726,
+      "y": 1479,
+      "w": 1,
+      "h": 1,
+      "tipo": "vegetacion",
+      "fuente": "manual"
+    }
+  ],
+  "por_tipo": {
+    "solido": [
+      {
+        "x": 1387,
+        "y": 176,
+        "w": 776,
+        "h": 453,
+        "fuente": "manual"
+      },
+      {
+        "x": 1984,
+        "y": 963,
+        "w": 621,
+        "h": 189,
+        "fuente": "manual"
+      },
+      {
+        "x": 213,
+        "y": 991,
+        "w": 437,
+        "h": 236,
+        "fuente": "manual"
+      },
+      {
+        "x": 296,
+        "y": 884,
+        "w": 213,
+        "h": 95,
+        "fuente": "manual"
+      },
+      {
+        "x": 2382,
+        "y": 371,
+        "w": 131,
+        "h": 164,
+        "fuente": "manual"
+      },
+      {
+        "x": 1824,
+        "y": 931,
+        "w": 102,
+        "h": 155,
+        "fuente": "manual"
+      },
+      {
+        "x": 1746,
+        "y": 1089,
+        "w": 1,
+        "h": 1,
+        "fuente": "manual"
+      },
+      {
+        "x": 2377,
+        "y": 1337,
+        "w": 1,
+        "h": 1,
+        "fuente": "manual"
+      },
+      {
+        "x": 1023,
+        "y": 865,
+        "w": 641,
+        "h": 51,
+        "fuente": "manual"
+      },
+      {
+        "x": 2285,
+        "y": 761,
+        "w": 310,
+        "h": 177,
+        "fuente": "manual"
+      },
+      {
+        "x": 1698,
+        "y": 44,
+        "w": 140,
+        "h": 135,
+        "fuente": "manual"
+      }
+    ],
+    "agua": [
+      {
+        "x": 1014,
+        "y": 453,
+        "w": 257,
+        "h": 145,
+        "fuente": "manual"
+      },
+      {
+        "x": 965,
+        "y": 88,
+        "w": 78,
+        "h": 120,
+        "fuente": "manual"
+      },
+      {
+        "x": 116,
+        "y": 525,
+        "w": 558,
+        "h": 48,
+        "fuente": "manual"
+      },
+      {
+        "x": 766,
+        "y": 525,
+        "w": 44,
+        "h": 67,
+        "fuente": "manual"
+      },
+      {
+        "x": 820,
+        "y": 258,
+        "w": 174,
+        "h": 280,
+        "fuente": "manual"
+      }
+    ],
+    "tejado": [],
+    "vegetacion": [
+      {
+        "x": 1169,
+        "y": 988,
+        "w": 504,
+        "h": 277,
+        "fuente": "manual"
+      },
+      {
+        "x": 102,
+        "y": 85,
+        "w": 330,
+        "h": 362,
+        "fuente": "manual"
+      },
+      {
+        "x": 107,
+        "y": 623,
+        "w": 490,
+        "h": 242,
+        "fuente": "manual"
+      },
+      {
+        "x": 82,
+        "y": 1265,
+        "w": 583,
+        "h": 189,
+        "fuente": "manual"
+      },
+      {
+        "x": 844,
+        "y": 1337,
+        "w": 985,
+        "h": 129,
+        "fuente": "manual"
+      },
+      {
+        "x": 2614,
+        "y": 346,
+        "w": 107,
+        "h": 286,
+        "fuente": "manual"
+      },
+      {
+        "x": 1048,
+        "y": 91,
+        "w": 296,
+        "h": 296,
+        "fuente": "manual"
+      },
+      {
+        "x": 2217,
+        "y": 107,
+        "w": 431,
+        "h": 204,
+        "fuente": "manual"
+      },
+      {
+        "x": 800,
+        "y": 809,
+        "w": 912,
+        "h": 25,
+        "fuente": "manual"
+      },
+      {
+        "x": 771,
+        "y": 828,
+        "w": 243,
+        "h": 207,
+        "fuente": "manual"
+      },
+      {
+        "x": 771,
+        "y": 1164,
+        "w": 272,
+        "h": 170,
+        "fuente": "manual"
+      },
+      {
+        "x": 1901,
+        "y": 1444,
+        "w": 849,
+        "h": 35,
+        "fuente": "manual"
+      },
+      {
+        "x": 2726,
+        "y": 1479,
+        "w": 1,
+        "h": 1,
+        "fuente": "manual"
+      }
+    ]
+  }
+}

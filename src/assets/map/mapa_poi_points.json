@@ -1,0 +1,35 @@
+{
+  "map_metadata": {
+    "file": "mapa.png",
+    "width": 2760,
+    "height": 1504,
+    "total_points": 4,
+    "generated_at": "2026-03-24T15:21:13+00:00"
+  },
+  "points": [
+    {
+      "id": 0,
+      "type": "spawn_point",
+      "x": 381,
+      "y": 1161
+    },
+    {
+      "id": 1,
+      "type": "spawn_point",
+      "x": 1770,
+      "y": 621
+    },
+    {
+      "id": 2,
+      "type": "spawn_point",
+      "x": 1979,
+      "y": 1129
+    },
+    {
+      "id": 3,
+      "type": "spawn_point",
+      "x": 2442,
+      "y": 541
+    }
+  ]
+}
