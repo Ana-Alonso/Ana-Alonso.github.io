@@ -39,17 +39,17 @@ const DIALOG_BY_SECTION: Record<string, DialogContent> = {
     title: "Casa",
     theme: "mailbox-letter",
     stampText: "PRIORIDAD UI/UX",
-    body: `Soy Ana y acabo de graduarme en Ingenieria Informatica. Tengo base full stack, pero donde mas disfruto aportar es en frontend, dando forma a productos digitales desde la interfaz hasta los detalles de implementacion.
+    body: `Soy Ana y acabo de graduarme en Ingeniería Informática. Tengo una base full stack, pero donde más disfruto aportar es en front-end: dar forma a productos digitales desde la interfaz hasta los detalles de implementación.
 
-Me motiva convertir ideas en interfaces claras, responsivas, accesibles, expresivas y funcionales, con atencion al detalle y foco en la experiencia real de quien las usa.`,
+Me motiva convertir ideas en interfaces claras, responsivas, accesibles y funcionales, con atención al detalle y foco en la experiencia real de quienes las usan.`,
     meta: [
       {
         label: "ROL OBJETIVO",
         value: "Desarrolladora Front-end / UI (con base Full Stack)",
       },
       {
-        label: "UBICACION",
-        value: "Disponible para trabajo remoto y modalidad hibrida",
+        label: "UBICACIÓN",
+        value: "Disponible para trabajo remoto y modalidad híbrida",
       },
       {
         label: "FOCO",
@@ -61,16 +61,13 @@ Me motiva convertir ideas en interfaces claras, responsivas, accesibles, expresi
     title: "Universidad",
     theme: "enrollment-form",
     enrollmentPrefix: "UNI",
-    body: "Formacion en tecnologia y desarrollo, fortalecida a traves del aprendizaje autodidacta y la practica constante en proyectos reales.",
-    studies: [
-      "Grado Internacional de Ingenieria Informatica en la UPNA",
-      "C1 Ingles",
-    ],
+    body: "Me formé en tecnología y desarrollo, y complementé esa base con aprendizaje autodidacta y práctica constante en proyectos reales.",
+    studies: ["Grado Internacional en Ingeniería Informática (UPNA)", "C1 de Inglés"],
   },
   Fabrica: {
-    title: "Fabrica",
+    title: "Fábrica",
     theme: "factory-sheet",
-    body: "Herramientas y habilidades que uso para construir productos end-to-end.",
+    body: "Herramientas y habilidades que utilizo para construir productos end-to-end.",
     skillCategories: [
       {
         label: "Front-end",
@@ -85,13 +82,13 @@ Me motiva convertir ideas en interfaces claras, responsivas, accesibles, expresi
         skills: ["Docker", "Git"],
       },
       {
-        label: "Diseno",
+        label: "Diseño",
         skills: ["Adobe Illustrator", "Adobe After Effects"],
       },
     ],
     meta: [
-      { label: "AREA", value: "Front-end / UI" },
-      { label: "METODO", value: "Diseno, desarrollo y mejora continua" },
+      { label: "ÁREA", value: "Front-end / UI" },
+      { label: "MÉTODO", value: "Diseño, desarrollo y mejora continua" },
     ],
     skills: [
       { icon: "TS", label: "TypeScript" },
@@ -115,7 +112,7 @@ Me motiva convertir ideas en interfaces claras, responsivas, accesibles, expresi
   Cabina: {
     title: "Cabina",
     theme: "radio-panel",
-    body: "Panel de comunicaciones activo. Puedes escribirme o conectar conmigo en estas plataformas.",
+    body: "Canal de comunicación activo. Puedes escribirme o conectar conmigo en estas plataformas.",
     meta: [{ label: "ESTADO", value: "Disponible para nuevas oportunidades" }],
     contacts: [
       { label: "Email", href: "mailto:alonsogomezana03@gmail.com" },
@@ -131,7 +128,7 @@ export function getDialogContent(section: string): DialogContent {
   return (
     DIALOG_BY_SECTION[normalizedSection] ?? {
       title: section,
-      body: "Seccion en construccion. Pronto habra mas contenido interactivo aqui.",
+      body: "Esta sección está en construcción. Pronto habrá más contenido interactivo aquí.",
     }
   );
 }
