@@ -1,0 +1,129 @@
+@import "tailwindcss";
+
+@font-face {
+  font-family: "Chonburi";
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url("/assets/fonts/Chonburi-400.woff2") format("woff2");
+}
+
+@font-face {
+  font-family: "Nunito Sans";
+  font-style: normal;
+  font-weight: 200 1000;
+  font-display: swap;
+  src: url("/assets/fonts/NunitoSans-var.woff2") format("woff2");
+}
+
+@font-face {
+  font-family: "IBM Plex Mono";
+  font-style: normal;
+  font-weight: 400 500;
+  font-display: swap;
+  src: url("/assets/fonts/IBMPlexMono-400.woff2") format("woff2");
+}
+
+@theme {
+  --color-porcelain: #fff6ec;
+  --color-paper: #fffbf6;
+  --color-ink: #2e2a24;
+  --color-muted: #6b6157;
+  --color-acorn: #8b6f4e;
+  --color-acorn-deep: #6e5236;
+  --color-sage: #a9c4b1;
+  --color-sage-deep: #4f6b58;
+  --color-moss: #dce8df;
+  --color-blush: #f5c9cf;
+  --color-blush-deep: #a04e66;
+  --color-rain: #b7c7d6;
+  --color-rain-deep: #4a6470;
+  --color-oat: #eadcc7;
+
+  --font-display: "Chonburi", "Trebuchet MS", cursive;
+  --font-sans: "Nunito Sans", "Segoe UI", sans-serif;
+  --font-mono: "IBM Plex Mono", ui-monospace, monospace;
+
+  --radius-card: 14px;
+}
+
+html,
+body,
+#root {
+  height: 100%;
+}
+
+body {
+  margin: 0;
+  background-color: var(--color-porcelain);
+  color: var(--color-ink);
+  font-family: var(--font-sans);
+  font-variant-ligatures: common-ligatures;
+  -webkit-font-smoothing: antialiased;
+}
+
+::selection {
+  background-color: var(--color-blush);
+  color: var(--color-ink);
+}
+
+:focus-visible {
+  outline: 2px solid var(--color-acorn-deep);
+  outline-offset: 2px;
+}
+
+input,
+textarea {
+  caret-color: var(--color-acorn-deep);
+}
+
+input::placeholder,
+textarea::placeholder {
+  color: var(--color-muted);
+  opacity: 1;
+}
+
+.dotted-leader {
+  background-image: radial-gradient(circle, rgb(139 111 78 / 0.55) 1px, transparent 1.2px);
+  background-size: 6px 2px;
+  background-repeat: repeat-x;
+  background-position: 0 center;
+}
+
+.dotted-column {
+  background-image: radial-gradient(circle, rgb(139 111 78 / 0.5) 1px, transparent 1.2px);
+  background-size: 2px 6px;
+  background-repeat: repeat-y;
+  background-position: center 0;
+}
+
+/* el rótulo de la pieza que está cayendo: entra con la pieza, no después de ella. Anima `translate`
+   porque el envoltorio que lo centra en el punto proyectado ya lleva ese eje puesto en el padre */
+@keyframes pieza-label {
+  from {
+    opacity: 0;
+    translate: 0 6px;
+  }
+  to {
+    opacity: 1;
+    translate: 0 0;
+  }
+}
+
+.piece-label {
+  display: inline-block;
+  animation: pieza-label 320ms ease-out both;
+}
+
+.scroll-area {
+  scrollbar-width: thin;
+  scrollbar-color: rgb(139 111 78 / 0.45) transparent;
+}
+.scroll-area::-webkit-scrollbar {
+  width: 7px;
+}
+
+.scroll-area::-webkit-scrollbar-thumb {
+  border-radius: 9999px;
+  background-color: rgb(139 111 78 / 0.45);
+}
